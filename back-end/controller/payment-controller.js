@@ -1,7 +1,7 @@
 
 
 import paytmchecksum from '../paytm/PaytmChecksum.js';
-import { paytmParams,paytmMerchantKey } from '../index.js';
+import { paytmParams,paytmMerchantKey } from '../app.js';
 import formidable from 'formidable';
 import https from 'https';
 

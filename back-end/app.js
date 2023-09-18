@@ -20,7 +20,7 @@ app.use(bodyParser.json({ extended : true}));
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.use('/' , Router);
-const PORT=8000;
+const PORT=process.env.PORT||8000;
 
 app.get("/",(req,res)=>{res.send("<h1>Hurray ! Server is running</h1>")});
 
