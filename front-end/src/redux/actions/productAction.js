@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 import *as actionTypes from '../constants/productConstant'
-const URL ='https://e-commerce-server-env.eba-5imf6vkz.ap-south-1.elasticbeanstalk.com'; //https://back-end-seven-tawny.vercel.app
+const URL ='https://otivaindustries.com/'; //https://back-end-seven-tawny.vercel.app
 
 
 
