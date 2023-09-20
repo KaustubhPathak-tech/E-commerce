@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 import *as actionTypes from '../constants/productConstant'
-const URL ='https://otivaindustries.com/'; //https://back-end-seven-tawny.vercel.app
+const URL ='https://otivaindustries.com'; //https://back-end-seven-tawny.vercel.app
 
 
 
