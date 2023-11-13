@@ -9,8 +9,8 @@ import { post } from "../../utils/paytm";
 import { message } from "antd";
 const LeftContainer = styled(Box)(({ theme }) => ({
   minWidth: "40%",
-  padding: "40px 0 0 80px",
-
+  margin:"40px 20px 0px 10px",
+  padding: "40px 20px0 0 80px",
   [theme.breakpoints.down("lg")]: {
     padding: "20px 40px",
   },
