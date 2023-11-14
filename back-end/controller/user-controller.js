@@ -19,6 +19,7 @@ export const userSignup = async (request, response) => {
 };
 
 export const userLogin = async (request, response) => {
+  console.log(request.body);
   try {
     const username = request.body.username;
     const password = request.body.password;
