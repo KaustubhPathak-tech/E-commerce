@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { setCurrentUser } from '../redux/actions/setCurrentUser';
 
-const URL ='http://localhost:8000';  //https://back-end-seven-tawny.vercel.app https://otivaindustries.com
+const URL ='https://zetacart-server.vercel.app';  //https://back-end-seven-tawny.vercel.app https://otivaindustries.com
 
 export const authenticateSignup = async (Authdata,dispatch) =>{
 
