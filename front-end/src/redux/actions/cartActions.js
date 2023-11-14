@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import * as actionType from '../constants/cartConstant';
 
-const URL ='https://zetacart-server.vercel.app';  //https://back-end-seven-tawny.vercel.app https://otivaindustries.com  http://localhost:8000
+const URL ='http://localhost:8000';  //https://back-end-seven-tawny.vercel.app https://otivaindustries.com  https://zetacart-server.vercel.app
 
 export const addToCart =(id, quantity,username) => async(dispatch) =>{
  try{
